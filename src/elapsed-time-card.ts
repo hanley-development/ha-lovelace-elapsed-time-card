@@ -208,7 +208,7 @@ export class ElapsedTimeCard extends LitElement {
         <div class="elapsed-time-card__container">
           ${this.config.icon
             ? html`
-                <ha-icon class="elapsed-time-card__container__icon" .icon=${`mdi:${this.config.icon}`}></ha-icon>
+                <ha-icon class="elapsed-time-card__container__icon" .icon=${this.config.icon}></ha-icon>
               `
             : ''}
           ${this.config.name
