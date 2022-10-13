@@ -2,7 +2,7 @@
   "branches": [
     "master"
   ],
-  "repositoryUrl": "https://github.com/kirbo/ha-lovelace-elapsed-time-card.git",
+  "repositoryUrl": "https://github.com/hanley-development/ha-lovelace-elapsed-time-card.git",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
